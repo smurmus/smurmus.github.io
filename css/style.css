@@ -15,8 +15,10 @@ body, html{
 	}
 }
 h1{
-	font-weight: 700;
+	font-weight: 300;
 	font-size: 46px;
+	letter-spacing: 2px;
+	text-transform: lowercase;
 }
 
 h2{
@@ -45,6 +47,13 @@ h6{
 	font-size: 10px;
 	word-spacing: 2px;
 	letter-spacing: 2px;
+}
+
+h7{
+	font-family: helvetica;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 42px;
 }
 
 p{
@@ -99,7 +108,7 @@ a:focus{
 .header-text.btn.focus, 
 .header-text.btn:active.focus, 
 .header-text.btn.active.focus {
-	outline: thin dotted transparent;
+/* 	outline: thin dotted transparent; */
 	outline: none;
 	outline-offset: -2px;
 }
