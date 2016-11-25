@@ -182,6 +182,35 @@ h6 {
 /******************************************************************
 	Main
 ******************************************************************/
+.typed-cursor {
+	opacity: 1;
+	padding: 10px 2px;
+	background: #ffffff;
+	margin: 10px;
+	-webkit-animation: blink 0.5s linear infinite;
+    	-moz-animation: blink 0.5s linear infinite;
+    	animation: blink 0.5s linear infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+span.typed-cursor {
+	top: -5px;
+	position: relative;
+}
 .content {
 	max-width: 960px;
 	width: 80%;
