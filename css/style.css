@@ -156,6 +156,11 @@ h6 {
 .right {
 	float: right;
 }
+
+.center{
+	float: center;
+}
+
 .clear {
 	clear: both;
 }
