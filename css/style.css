@@ -109,6 +109,10 @@ h1 {
   font-family: 'Open Sans', sans-serif;
 }
 
+.center-pls{
+	width:100%;
+}
+
 h2 {
 	font-family: 'Open Sans', Verdana, Arial, sans-serif;
 	line-height: 1.6em;
